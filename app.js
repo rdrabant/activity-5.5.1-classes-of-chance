@@ -18,7 +18,7 @@ class Casino {
             
             let amount = betAmount * (this.timesPlayed);
         
-            console.log("You won " + amount + " from ${this.casinoName}");
+            console.log(`You won ` + amount + ` from ${this.casinoName}`);
             
         }
 
